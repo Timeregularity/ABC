@@ -1,0 +1,510 @@
+
+
+
+body{background-color: #1b2838 ;
+width: 120vh;
+height: 250vh;
+}
+.header{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:229.6vh;
+    height:100px;
+    margin: 0px;
+    background-position: center top;
+    background-color: rgb(23, 29, 37);
+}
+.search-container{
+    position: relative;
+    top: -3vh;
+    left: -16vw;
+    
+}
+
+.LOGO{ position: absolute;
+top:25px;
+left: 300px ;
+width:176px;
+height: 44px;
+}
+
+
+.STORE{text-decoration: none;
+    color:#dcdedf;
+font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+}
+.COMMUNITY{text-decoration: none;
+    color:#dcdedf;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;}
+.ABOUT{text-decoration: none;
+    color:#dcdedf;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;}
+.SUPPORT{text-decoration: none;
+    color:#dcdedf;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;}
+
+
+.first{width: 100%;
+height:69.184px ;}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b2838; /* Steam dark background */
+    color: #c7d5e0; /* Steam text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
+  .login{
+    position: absolute;
+    left: 0vw;
+    top: -85px;
+  }
+  
+  
+  .search-input {
+    width: 300px; 
+    padding: 10px 15px;
+    font-size: 14px;
+    border:none; 
+    border-radius: 5px 0 0 5px;
+    background-color: #0b1015;
+    color: #c7d5e0; 
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border-color: #ffffff;
+  }
+  
+  
+  .search-button {
+    width: 80px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #092739; 
+    color: #ffffff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #417a9f; 
+  }
+  
+.video{
+    position: absolute;
+    top: 100px ;
+    transform: translateX(-50%);
+    width:50vh;
+    height:auto;
+    
+
+}
+.INSTALL{position:absolute;
+    top: 1vh;
+    width: 120px;
+right: 250px;
+background-color:#5c7e10;
+color:#e5e4dc;
+font-family:sans-serif;
+font-size:12px;
+padding:5px;}
+
+.bellingham{width:100%;
+height: auto;}
+.CATEGORIES{display:flex;
+    align-items: end;
+    position: relative;
+    left: 500px;
+    height:7.5vh;
+    gap: 10px;
+    color: #b8b6b4;
+}
+
+.BUTTON{display: flex;
+    flex-direction: column;
+    position:absolute;
+    top:10px;
+   left: 1320px;
+   padding:10px ;
+   }
+   .login{text-decoration: none;
+       padding:-100;
+       color: #b8b6b4;
+       font-size: 14px;
+   position: relative;
+   right: 150px;}
+   .current{height: 300vh;
+width: 300vh; }
+
+.GIFTCARDS{display: flex;
+flex-direction: row;
+top: 10vh;
+height:77vh ;
+align-items: flex-end;
+position: relative;
+left: 30px ;}
+.GIFT{
+
+left: 7.5vh;
+color: #88bde9; 
+font-size: 15px;
+font-family: "Motiva Sans", Sans-serif;
+text-decoration: none;}
+.gift{font-size:12px ;
+    padding:5px;
+color:#a4b3c4;
+position: absolute;
+left: 7.7vh;
+}
+.RECOMMENDED{position: relative;
+    top: 10vh;
+    left:6.9vh;  
+    font-family:"Motiva Sans", Sans-serif ; 
+    font-size:15px ;
+    padding: 10px;
+color: #536f86;}
+.RECOM{position:relative;
+left: -39px; 
+list-style-type: none;
+font-size:11.5px ;
+font-family: "Motiva Sans", Sans-serif;
+color:#7A8B9D ;
+}
+.BrowseCategories{position:relative;
+    top: 4.5vh;
+    left: 6.9vh;  
+    font-family:"Motiva Sans", Sans-serif ; 
+    font-size:15px ;
+    padding: 10px;
+color: #536f86;}
+.browse{position:relative;
+    line-height: 10px;
+    left:-40px;
+    list-style-type: none;
+    font-size:11.5px ;
+    font-family: "Motiva Sans", Sans-serif;
+    color:#7A8B9D ;
+    }
+.BrowseByGenre{position:relative;
+    top: -2vh;
+    left: 6.9vh;  
+    font-family:"Motiva Sans", Sans-serif ; 
+    font-size:15px ;
+    padding: 10px;
+color: #536f86;}
+.browseby{position:relative;
+    line-height: 10px;
+    left:-40px;
+    list-style-type: none;
+    font-size:11.5px ;
+    font-family: "Motiva Sans", Sans-serif;
+    color:#7A8B9D ;
+    }
+.FEATUREANDRECOMMENDED{
+font-family:"Motiva Sans", Sans-serif;
+font-weight: 400;
+font-size:14px ;
+color: #fff;
+display: block;
+position: absolute;
+left:50vh ;
+top: 80vh;
+display: flex;}
+.DOTA{
+    height:353px ;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.8);
+width: 616px;
+margin-top: 10px; 
+display: block;
+position: relative; /* Keeps the image in normal flow */
+z-index: 1;}
+.divdota{
+    box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.5);
+    height: 353px ;
+    width: 350px;
+background-color:#1e2d3f ;
+z-index: -1;
+position:relative;
+top:3.6vh;
+left:-10px;
+
+color:#fff ;
+font-family:"Motiva Sans", Sans-serif;
+z-index:0;
+}
+.DOTAflex1{position:relative;
+    top: 10vh;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    left: 5%;
+}
+.DOTAflex2{position: relative;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    left: 5%;
+}
+.topseller{height: 50px;
+    width: 1050px;
+    background-color: rgb(110, 110, 110);
+    padding-top:8%;
+    color:black;
+    position: relative;
+    top: 10vh;
+
+
+}
+.nowavailable{font-size: 20pt;
+    font-weight: 200;
+    font-family: "Motiva Sans, Sans-serif";
+    position:absolute;
+    top: 80px;
+left: 15px;}
+.topseller{font-size: 11px;
+    position: absolute;
+    top: 115px;
+ left: 15px;
+ width:50px; 
+ height: 15px;
+line-height: 10px; 
+padding: 2px;}
+.SPECIAL{
+    display: flex;
+    flex-direction: column;
+    
+}
+.green1{
+    display: flex;
+    flex-direction:row;
+}
+.songconquest{height: 390px;
+width: 306px;
+box-shadow:0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+position: absolute;
+left: 50vh;
+top: 140vh;}
+.live{
+    height: 13px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    overflow: hidden;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAFMN540AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MkQ4QTE5MTc3M0M4MTFFODkzODlBNzdDNUZEOUI2RUMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MkQ4QTE5MTg3M0M4MTFFODkzODlBNzdDNUZEOUI2RUMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyRDhBMTkxNTczQzgxMUU4OTM4OUE3N0M1RkQ5QjZFQyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyRDhBMTkxNjczQzgxMUU4OTM4OUE3N0M1RkQ5QjZFQyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqixHngAAAK7SURBVHjaYvz//z8DMmABEZuio2CiX8ACf378gCngAQv8/fHjM5DiDd26jREggBjRzWDcGBUpB6Qfgjh+S5cxsgD1P0RWwRS0dh0j0AyQOWABgACCm7ElLhauFQiW+yxaHAVXsDE8DNUmKPBfuYoR7Kzf37+vAFIR2BRhOBMdAAQQXgUsMAbQgX+AFDOIDXQcI1wnUqDBAdjzIMb/P38wjAT6ZgckMLFIAoEOWPLf798YMiGbNsswQRmM///+ZUDC0QS9AhBABAMCH2BB5myOjckHUhPwqP/vu3gJE4bNm6Ii/4KSAZGWKvgtW/4QbjMwRJhIcPEtIGaHa8YR1rhAHUaArfH1+QcSI6AxMmTzlhU4Q3uVlycolc8GYkcgfgXEU8K2be9AVwcQQBRFFRMDBYAFXQCY7peB/IUmDAoLRWA+eITT2cBEQiiui4CJpB8zkURHgcoYHiJcKw/MaI8QxVdUpDyRGkHgPiw7Q3Lq378zyQlkiOZ//xzIDu1///69AVLSZMUz0ObJQMxALEbRHLx+QydaMYIPr8BMYf//RzKAog0//g8sryKxJpLV3l5+oCIRhxe/AOsZXoIZA5irKoBUDhCLAfF+IM4E5qp7VM1VAAFGkWaq5khcYEt8HKhwiYIWLlpALAqqG4H4CbRqPQDEK30WLrpPsY83x8WCIm4JqDFAooe+AHGa76LFy0myeHNMdDioYUBEGUwIgAyP9F2ydCVBi4FF0VJokFITrAAWW5E4Ld4YEV4OpDpolJ4q/Fes7MRaVwDLh1xSyhIScS7OVA2UFKFhDhLFZ/FBIOVGI4v347M4HUjdpbS6xgJAZXwG3lQNbMqACoqrJNSVxORpbWDT5xFRBchqH29Q+7GPAt+DDC4N3bK1l6yyejWkHQbKBmFEOAIUpKuAuDx02/ZHg7KSYGIYIAAAG8jIJ8edBjIAAAAASUVORK5CYII=) #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+    background-position-x:4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 3px 6px 3px 20px;
+    box-shadow: 0 0 7px #a94847;
+    z-index: 2;
+    transition: opacity 0.6s;
+    color: white; 
+}
+.live:hover{
+
+    color: rgb(112, 112, 225);
+}
+.discount1{
+    position: relative;
+left:15px;
+height: 35px;
+width: 75px;
+background-color:#4c6b22 ;
+color:#BEEE11;
+font-weight: 500;
+font-family: "Motiva Sans", Sans-serif;
+font-size: 26px;
+padding: 0 5px;
+}
+.discounted_price1{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    background-color: #344654;
+}
+
+.before{color: #738895;
+    font-size: 15px;
+    line-height: 12px;
+    text-decoration: line-through;
+    padding: 0 5px;
+    width: fit-content;
+}
+.after{
+    color:#BEEE11;
+    font-size: 16px;
+    padding-left: 4px;
+   
+}
+.KOEI_TECMO{height: 390px;
+    width: 306px;
+    box-shadow:0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 92.5vh;
+    top: 140vh;}
+    .green2{
+        display: flex;
+        flex-direction:column;
+    }
+    .discount2{
+        position: relative;
+    left:15px;
+    height: 35px;
+    width: 105px;
+    background-color:#4c6b22 ;
+    color:#BEEE11;
+    font-weight: 500;
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 22px;
+    padding: 0 5px;
+    padding-top: 5px;
+    }
+    .flexbox{
+      
+      display: flex;
+      flex-direction: column;  
+      position: absolute;
+      left:134vh ;
+      top: 140vh;
+      gap: 17px;
+      margin-left: 10px;
+      
+
+    }
+    .co-op{
+        height:183.51px ;
+        width: 306px;
+       
+    }
+    .cavalry_girls{ 
+       
+        height:183.51px ;
+        width: 306px;
+}
+.Todays_Deal{
+    
+    font-family: "Motiva Sans", Sans-serif ;
+    background-color: #B3DFFF;
+    margin-top: 0px;
+    height: 45px;
+    position: relative;
+    top: -4px;
+}
+
+.green3{
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    left: 23vh;
+    top: -12px;
+}
+.foot{
+    width: 100%;
+    height: 15rem;
+    background-color: rgb(20, 20, 20);
+    position:absolute;
+    left: 0px;
+    top: 130rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+}
+.Looking{
+    color: rgb(103, 193, 245);
+    font-family: "Motiva Sans", Sans-serif ;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.Sign{
+    color:#aaa7a7 ;
+    font-family: "Motiva Sans", Sans-serif  ;
+    font-size: 16px;
+    font-weight: 500;
+}
+   .Login{
+    border-radius: 6px;
+    width: 80px;
+border: none;
+background-color:#688d18;
+color:#cae1c2;
+font-family:sans-serif;
+font-size:14px;
+padding:5px;
+   } 
+   .footer{
+    color:#aaa7a7 ;
+    margin-top: 10px;
+    font-family: "Motiva Sans", Sans-serif  ;
+    font-size: 16px;
+    font-weight: 500;
+   }
+   .signup{
+    color: white;
+    text-decoration: none;
+   }
+   .Frontier{
+height:90vh ;
+width: 85vh;
+position: relative;
+top: -112vh;
+left: 49vh;
+box-shadow:0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+ color:rgb(197, 196, 196) ;
+  }
+  .Flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .MONSTERHUNTER{
+    position: relative;
+    top:-202vh ;
+    left: 64vw;
+    height:44vh ;
+    width: 40vh;
+    box-shadow:0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  }
+  .SHADOWS{
+    position: relative;
+    top:-200vh ;
+    left: 64vw;
+    height:44vh ;
+    width: 40vh;
+    box-shadow:0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  }
+  .STORE{
+    color: #0072ff;text-decoration: underline; }
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
